@@ -1,0 +1,18 @@
+.left {
+	width: 50%;
+	height: 100%;
+	float: 100%;
+	text-align: center;
+	position: fixed;
+	overflow: hidden;
+}
+
+.right {
+	float: right;
+}
+
+.left,.right {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top; 
+}
