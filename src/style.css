@@ -19,7 +19,7 @@
 }
 
 .left .bg-img {
-	background-image: url('./img/bg-img.jpg');
+	background: url('./img/bg-img.jpg');
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -58,11 +58,16 @@
 	margin-top: 30px;
 }
 
-/* .left-inner,
+.left .info .fa {
+	margin: 10px;
+	font-size: 24px;
+	/* color: #fff */
+}
+ /* .left-inner,
 .right-inner {
   padding: 50px;
-}
-
+} */
+/*
 @media screen and (max-width: 400px) {
 	.left-inner,
 	.right-inner {
