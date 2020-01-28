@@ -1,12 +1,12 @@
 import React from 'react';
 import '../style.css'
-import profileimg  from '../img/bg-img.jpg'
+import profileimg  from '../img/teny.jpg'
 
 function Profile() {
 	return (
 		<div className="left">
 			<div className="left-top">
-				<img src={profileimg}/>
+				<img src={ profileimg }/>
 
 			</div>
 			<div className="left-bottom">

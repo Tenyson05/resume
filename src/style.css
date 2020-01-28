@@ -7,7 +7,6 @@
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-right: 20px; */
-
 }
 
 .left {
@@ -28,17 +27,18 @@
 }
 
 .left-bottom {
+	padding-top: 10px;
 	height: 40%;
 	margin: 0;
 }
 
 .left-top > img {
-	height: 100%;
-	/* width: 100%; */
 	position: relative;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-size: cover;
+     width: 100%;
+	 height: 100%; 
+	 object-fit: cover;
+	 /* object-position: 50% 50%; */
+	
 }
 
 .social-links > a {
@@ -54,162 +54,3 @@
 	color: #101D2E;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .left-inner {
-	position: fixed;
-	display: flex;
-	align-items: center;
-	min-height: 24em;
-	justify-content: center;
-	-webkit-box-align: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-
-}
-.image {
-	flex: 1;
-	width: 10%;
-	height: 01%;
-	
-}
- */
-
-
-
-/* .right {
-	float: right;
-}
-
-.right {
-	width: 75%;
-	display: inline-block;
-	vertical-align: top;
-} */
-
-
-
-
-/* .left .left-inner .info {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	color: #fff;
-	width: 90%;
-	margin: 0 auto;
-	margin-top: 50%;
-} */
-
-/* .left .info .name{
-	font-weight: 500;
-}
-
-.left .info .social-links {
-	margin-top: 30px;
-}
-
-.left .info .fa {
-	margin: 10px;
-	font-size: 24px;
-	color: #fff
-} */
-
-
-/* .right .skills .skill-category {
-	margin-bottom: 10px;
-}
-
-.right .skills .skill-category > strong{
-	font-size: 14px;
-} */
- 
- /* .left-inner,
-.right-inner {
-  padding: 50px;
-} */
-/*
-@media screen and (max-width: 400px) {
-	.left-inner,
-	.right-inner {
-	  padding: 40px;
-	}
-  } */
