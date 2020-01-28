@@ -1,44 +1,173 @@
+.app{
+	background-color: #2F3845;
+	height: 100vh;
+	width: 100vw;
+	padding: 20px;
+	/* padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px; */
+
+}
+
 .left {
-	/* color: #efefef; */
-	width: 50%;
-	height: 100%;
-	float: 100%;
+	width: 25%;
+	height: 95%;
 	text-align: center;
 	position: fixed;
 	overflow: hidden;
+	background-color: #485465;
 }
 
-.right {
-	float: right;
+.left-top, .left-bottom {
+	color: #ffffff;
 }
 
-.left,.right {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top; 
+.left-top {
+	height: 55%
 }
 
-.left .bg-img {
-	background: url('./img/bg-img.jpg');
-	background-size: cover;
+.left-bottom {
+	height: 40%;
+	margin: 0;
+}
+
+.left-top > img {
 	height: 100%;
-	width: 100%;
-	position: absolute;
+	/* width: 100%; */
+	position: relative;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-size: cover;
 }
 
-.left-inner {
+.social-links > a {
+	margin: 10px;
+	font-size: 30px;
+	color: #ffffff;
+	
+}
+
+.social-links > a:hover {
+	margin: 10px;
+	font-size: 30px;
+	color: #101D2E;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .left-inner {
+	position: fixed;
 	display: flex;
 	align-items: center;
 	min-height: 24em;
 	justify-content: center;
-	height: 100;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 
 }
+.image {
+	flex: 1;
+	width: 10%;
+	height: 01%;
+	
+}
+ */
 
-.left .info {
+
+
+/* .right {
+	float: right;
+}
+
+.right {
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+} */
+
+
+
+
+/* .left .left-inner .info {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -48,9 +177,9 @@
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 50%;
-}
+} */
 
-.left .info .name{
+/* .left .info .name{
 	font-weight: 500;
 }
 
@@ -61,19 +190,18 @@
 .left .info .fa {
 	margin: 10px;
 	font-size: 24px;
-	/* color: #fff */
-}
+	color: #fff
+} */
 
 
-.right .skills .skill-category {
+/* .right .skills .skill-category {
 	margin-bottom: 10px;
 }
 
 .right .skills .skill-category > strong{
-	text-transform: uppercase;
 	font-size: 14px;
-}
-
+} */
+ 
  /* .left-inner,
 .right-inner {
   padding: 50px;

@@ -26,10 +26,9 @@ function Details() {
 							<strong>TOOLS: </strong>
 							<span>GitHub, GitLab, Windows Command line, Linux Command Line, Postman, Datagrip, Figma</span>	
 						</div>
-						
 					</div>
-					
 				</div>
+				
 			</div>
 		</div>
 	);
