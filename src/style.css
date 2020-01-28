@@ -89,7 +89,7 @@ hr {
 	background-color: #485465;
 }
 
-.skills-card, .education-card {
+.skills-card, .education-card, .experience-card {
 	margin-top: 50px;
 }
 
@@ -101,7 +101,7 @@ hr {
 	/* position: fixed; */
 }
 
-.edu-right {
+/* .edu-right {
 	float: right;
-}
+} */
 

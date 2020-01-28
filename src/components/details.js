@@ -24,6 +24,18 @@ function Details() {
 					<span>GitHub, GitLab, Windows Command line, Linux Command Line, Postman, Datagrip, Figma</span>
 				</div>
 			</div>
+			<div className="experience-card">
+				<h3>Experience</h3>
+				<hr />
+				<div className="exp-left">
+					<p>Digicel Jamaica</p>
+					<p id="year">Summer of 2019</p>
+				</div>
+				<div className="exp-right">
+					<p>Hood Daniel Well Co</p>
+					<p id="year">Summer of 2012-2018</p>
+				</div>
+			</div>
 			<div className="education-card">
 				<h3>Education</h3>
 				<hr />
@@ -31,17 +43,9 @@ function Details() {
 					<p>University of Technology, Jamaica <br/> Major: Computer science</p>
 					<p id="year">Expected Graduation year: 2020</p>
 				</div>
-				{/* <div className="edu-right">
+				<div className="edu-right">
 					<p>Belair High School</p>
 					<p id="year">Graduated: 2016</p>
-				</div> */}
-			</div>
-			<div className="experience-card">
-				<h3>Experience</h3>
-				<hr />
-				<div className="exp-left">
-					<p>Hood Daniel Well Co</p>
-					<p id="year">Summer of 2012-2018</p>
 				</div>
 			</div>
 		</div>
