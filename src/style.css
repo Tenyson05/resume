@@ -52,5 +52,56 @@
 	margin: 10px;
 	font-size: 30px;
 	color: #101D2E;
+}
+
+.right {
+	float: right;
+	width: 73%;
+	height: 95%;
 
 }
+
+.intro-card {
+	color: #ffffff;
+}
+
+h3 {
+	color: #64FFDA;
+	margin: 30px;
+}
+
+p {
+	margin: 30px;
+	color: #ffffff;
+}
+
+.skill-category {
+	color: #ffffff;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+strong {
+	color: #64FFDA;
+}
+
+hr {
+	background-color: #485465;
+}
+
+.skills-card, .education-card {
+	margin-top: 50px;
+}
+
+#year {
+	opacity: 40%;
+}
+
+.edu-left {
+	/* position: fixed; */
+}
+
+.edu-right {
+	float: right;
+}
+

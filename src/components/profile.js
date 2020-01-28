@@ -6,7 +6,7 @@ function Profile() {
 	return (
 		<div className="left">
 			<div className="left-top">
-				<img src={ profileimg }/>
+				<img src={ profileimg } alt="Tenyson"/>
 
 			</div>
 			<div className="left-bottom">
